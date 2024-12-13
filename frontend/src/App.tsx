@@ -1,0 +1,13 @@
+//import reactLogo from './assets/react.svg
+import { AuthProvider } from './context/AuthContext'
+import { AppRoutes } from './routes/AppRoutes'
+
+function App() {
+  return (
+    <AuthProvider>
+      <AppRoutes />
+    </AuthProvider>
+  )
+}
+
+export default App
